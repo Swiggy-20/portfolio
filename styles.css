@@ -126,6 +126,18 @@ h2{
                     p{
                         margin:1.5rem 5rem;
                     }
+                    .media img{
+                        width:550px;
+                    }
+                    @media (min-width:1150px){
+                        p{
+                            margin:1.5rem 7rem;
+                            font-size:25px;
+                        }
+                        .media img{
+                            width:600px;
+                        }
+                    }
                 }
             }
         }
